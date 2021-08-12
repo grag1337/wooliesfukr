@@ -18,9 +18,9 @@ import azure.functions as func
 
 
 
-auth = tweepy.OAuthHandler("DjljXGx9rF9QlqaIkuIEI4NmG","GTSz0vOc1qCiVb4Yg7XmCWZz4NENtYNsNytEFqdY8km0hs0Bxe")
+auth = tweepy.OAuthHandler("")
 
-auth.set_access_token("1227579454945255425-AF61yS6PyYxmnVXcld3TT6QgYY4AvI", "HhFLiTdzAa22On655Bp5oAjivAzYXOwVOCMR5ObVPPl3b")
+auth.set_access_token("")
 
 api = tweepy.API(auth)
 
